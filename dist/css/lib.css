@@ -971,6 +971,7 @@ ul.dropdown-content li a {
 }
 
 .product-item {
+  margin-top: 40px !important;
   width: 20%;
   height: 380px;
   cursor: pointer;
@@ -1116,6 +1117,7 @@ ul.dropdown-content li a {
 .add_to_cart_button {
   background: #00aeef !important;
   margin-left: 0 !important;
+  margin-top: 40px !important;
   width: 100%;
   visibility: hidden;
   opacity: 0;
@@ -1178,7 +1180,7 @@ ul.dropdown-content li a {
 *********************************/
 .deal_ofthe_week {
   width: 100%;
-  margin-top: 90px;
+  margin-top: 150px;
   background: #f2f2f2;
 }
 
