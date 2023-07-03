@@ -79,8 +79,12 @@ p::selection
 {
 	background: #fde0db;
 }
-h1{font-size: 72px;}
+h1{
+	font-size: 72px;
+	text-transform: uppercase;
+}
 h2{
+	height: 50px !important;
 	font-size: 40px;
 	margin-bottom: 0 !important;
 }
@@ -244,7 +248,7 @@ section
 	width: 350px;
 	height: 40px;
 	border: none;
-	border-radius: 4px;
+	border-radius: 3px;
 	padding-left: 25px;
 	background-color: #f0f0f0;
 
@@ -252,11 +256,15 @@ section
 
 button.input-btn {
 	width: 42px;
-	height: 42px;
+	height: 40px;
 	border: none;
 	border-radius: 3px;
+	margin-bottom: 4px;
 }
 
+i.fa.fa-user-plus, .fa.fa-sign-in {
+	margin-right: 10px;
+}
 /* Icon User */
 li.fa.fa-user:hover .account_selection {
 	visibility: visible;
@@ -484,7 +492,7 @@ ul.dropdown-content li a {
 	color: #b5aec4;
 }
 .fa-solid.fa-envelope {
-	padding-right: 5px;
+	// padding-right: 5px;
 }
 .fa-solid.fa-phone {
 	padding-right: 5px;
@@ -1079,20 +1087,20 @@ ul.dropdown-content li a {
 {
 	// background-color: #eef0f5;
 	width: 100%;
-	margin-top: 57px;
+	margin-top: 20px !important;
 }
 .product-item
 {
 	margin-top: 40px !important;
 	width: 20%;
-	height: 380px;
+	height: 371px !important;
 	cursor: pointer;
 }
 .product-item::after
 {
 	display: block;
 	position: absolute;
-	top: 0;
+	top: 10px !important;
 	left: -1px;
 	width: calc(100% + 1px);
 	height: 100%;
@@ -1511,7 +1519,7 @@ ul.dropdown-content li a {
 	text-transform: uppercase;
 	line-height: 18px;
 	font-weight: 500;
-	margin-bottom: 0px;
+	margin-bottom: 6px !important;
 }
 .benefit_content p
 {
@@ -1626,7 +1634,7 @@ ul.dropdown-content li a {
 }
 .newsletter_text h4
 {
-	margin-bottom: 0px;
+	margin-bottom: 6px !important;
 	line-height: 24px;
 }
 .newsletter_text p
@@ -1880,7 +1888,52 @@ span.carousel-control-next-icon {
 	align-items: center;
 	border-radius: 50%;
 	position: fixed;
-	bottom: 40px;
+	bottom: 227px;
 	right: 20px;
+	cursor: pointer;
+}
+
+img.logo-lazada {
+	position: fixed;
+    z-index: 999;
+    right: 20px;
+    bottom: 20px;
+    top: auto !important;
+	border-radius: 5px;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+img.logo-shopee {
+	position: fixed;
+    z-index: 999;
+    right: 18px;
+    bottom: 68px;
+    top: auto !important;
+	border-radius: 5px;
+	width: 54px;
+	height: 54px;
+	cursor: pointer;
+}
+img.logo-hotline {
+	position: fixed;
+    z-index: 999;
+    right: 20px;
+    bottom: 122px;
+    top: auto !important;
+	border-radius: 5px;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+img.logo-messages {
+	position: fixed;
+    z-index: 999;
+    right: 20px;
+    bottom: 174px;
+    top: auto !important;
+	border-radius: 5px;
+	width: 50px;
+	height: 50px;
 	cursor: pointer;
 }
